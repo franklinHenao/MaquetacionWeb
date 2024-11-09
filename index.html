@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de vida</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+    }
+
+    th {
+      text-align: left;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>HOJA DE VIDA</h1>
+  <header>
+    <img src="/Images/Imagen.jpg" alt="foto de perfil" width="180" height="230" />
+
+    <h2>Franklin Danilo Henao Pineda</h2>
+
+    <h1>Perfil Profesional</h1>
+    <h4>Soy estudiante del Tecnología en Desarrollo de software en la IU Digital de Antioquia, con
+      conocimientos básicos en Java, JavaScript, HTML, CSS, SQL, MySQL, Python, me apasiona el
+      mundo del software y estoy buscando una oportunidad para aplicar mis conocimientos en
+      proyectos reales, colaborar con equipos de desarrollo y aprender de profesionales con
+      experiencia. además, soy una persona honesta, con sentido de pertenencia, habilidad en
+      aprendizaje, sencilla, comprometido, le pongo amor a lo que hago, trabajo en equipo.
+      Experiencia en sistemas de facturación e inventario SAP, XENCO, Manejo en computadores,
+      y mantenimientos de los mismos, instalación de software, manejo de herramientas
+      ofimáticas.</h4>
+    <nav>
+      <ul type="square">
+        <li><a href="# Informacion Personal">Informacion Personal</a></li>
+        <li><a href="# Formacion Academica ">Formacion Academica</a></li>
+        <li><a href="# Experiencia Laboral ">Experiencia Laboral</a></li>
+        <li><a href="# Contactame ">Contactame</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </header>
+
+  <!-- Sección informacion personal -->
+
+  <section id="Informacion Personal">
+    <h2> INFORMACION PERSONAL</h2>
+    <table>
+      <tr>
+        <th>NOMBRE Y APELLIDO</th>
+        <th>DOCUMENTO</th>
+        <th>TELEFONO</th>
+        <th>CORREO ELECTRÓNICO</th>
+        <th>DIRECCION DE RESIDENCIA</th>
+      </tr>
+      <tr>
+        <td>Franklin Danilo Henao Pineda</td>
+        <td>70386089 de Cocorna Antioquia</td>
+        <td>3102726533</td>
+        <td>franklin.henao@est.iudigital.edu.co
+          franklinhenao@gmail.com</td>
+        <td>miraflores, El Santuario - Antioquia</td>
+      </tr>
+    </table>
+  </section>
+  <!-- Sección de formación académica -->
+  <section id="formacion Academica">
+    <h2>FORMACION ACADEMICA</h2>
+    <table>
+      <tr>
+        <th>INSTITUCIÓN/ENTIDAD</th>
+        <th>TÍTULO</th>
+        <th>FECHA DE GRADUACION</th>
+      </tr>
+      <tr>
+        <td>Universidad Minuto de Dios</td>
+        <td>Tecnologo Electronico</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>CEDES Rionegro</td>
+        <td>Auxiliar técnico en servicios farmacéuticos</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>IuDigital de Antioquia</td>
+        <td>Tecnologo en desarrollo de software</td>
+        <td>Actualmente estudiando</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Sección de experiencia laboral -->
+  <section id="Experiencia Laboral">
+    <h2>EXPERIENCIA LABORAL</h2>
+    <table>
+      <tr>
+        <th>INSTITUCIÓN/ENTIDAD</th>
+        <th>CARGO</th>
+        <th>TIEMPO</th>
+        <th>TELÉFONO</th>
+      </tr>
+      <tr>
+        <td>monterrey</td>
+        <td>Tecnico en sistemas</td>
+        <td>10 años</td>
+        <td>3136586342</td>
+      </tr>
+      <tr>
+        <td>Uniminuto Bello</td>
+        <td>Auxiliar sala de sistemas</td>
+        <td>4 años</td>
+        <td>2562895</td>
+      </tr>
+      <tr>
+        <td>Hospital San Juan De Dios</td>
+        <td>Auxiliar en farmacia hospitalaria</td>
+        <td>3 años</td>
+        <td>5460050</td>
+      </tr>
+      <tr>
+        <td>Colsubsidio</td>
+        <td>Auxiliar en farmacia</td>
+        <td>5 años</td>
+        <td>3254858</td>
+      </tr>
+
+    </table>
+  </section>
+
+  <!-- Pie de página con formulario de contacto -->
+  <footer>
+    <h2 id="contacto">CONTACTAME</h2>
+    <form>
+      <label for="nombre">Nombre:</label><br />
+      <input type="text" id="nombre" name="nombre" required /><br /><br />
+
+      <label for="email">Correo:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="mensaje">Mensaje:</label><br />
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p>Encuéntrame en:</p>
+    |
+    <a href="https://github.com/franklinHenao/MaquetacionWeb" target="_blank">GitHub</a>
+  </footer>
+</body>
+
+</html>
